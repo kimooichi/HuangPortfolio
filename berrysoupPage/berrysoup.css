@@ -192,7 +192,7 @@ h1
 
 .ImgSect
 {
-    width: 90%;
+    width: 100%;
     margin-bottom: 3em;
 }
 
@@ -228,6 +228,27 @@ h2
 {
     width: 30%;
     margin-bottom: 5em;
+}
+
+@media screen and (max-width: 550px)
+{
+    nav
+    {
+        transform-origin: left top;
+        transform: rotate(-90deg) translateX(-100%);  
+        width: 420px;
+    }
+
+    .navbar a, .navbtn, #topBtn
+    {
+        font-size: 12px;
+    }
+
+    .Socialsicon
+    {
+        width: 1.5em;
+        height: 1.5em;
+    }
 }
 
 /*Page Ends Here*/

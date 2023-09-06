@@ -229,6 +229,28 @@ h2
 
 }
 
+
+@media screen and (max-width: 550px)
+{
+    nav
+    {
+        transform-origin: left top;
+        transform: rotate(-90deg) translateX(-100%);  
+        width: 420px;
+    }
+
+    .navbar a, .navbtn
+    {
+        font-size: 12px;
+    }
+
+    .Socialsicon
+    {
+        width: 1.5em;
+        height: 1.5em;
+    }
+}
+
 /*Page Ends Here*/
 /*Footer Starts Here*/
 

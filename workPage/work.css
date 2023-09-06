@@ -46,7 +46,7 @@ nav
     position: fixed;
     margin-top: 20px;
     padding-right: 15px;
-    margin-left: 68em;
+    margin-left: 0em;
 }
 
 #NavSocials a 
@@ -213,6 +213,27 @@ h1
     color: black;
     font-size: 12px;
     margin-left: 0.5em;
+}
+
+@media screen and (max-width: 550px)
+{
+    nav
+    {
+        transform-origin: left top;
+        transform: rotate(-90deg) translateX(-100%);  
+        width: 420px;
+    }
+
+    .navbar a, .navbtn
+    {
+        font-size: 12px;
+    }
+
+    .Socialsicon
+    {
+        width: 1.5em;
+        height: 1.5em;
+    }
 }
 
 /*Page Ends Here*/
