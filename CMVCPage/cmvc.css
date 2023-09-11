@@ -77,6 +77,7 @@ nav
 {
     background-color: transparent;
     border: none;
+    position: fixed;
     display: block;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
@@ -102,8 +103,9 @@ nav
 
 #topImg
 {
-    width: 1.5em;
-    height: 1.5em;
+    margin-left: 0em;
+    width: 2em;
+    height: 2em;
 }
 
 /*Nav Ends Here*/
@@ -165,6 +167,7 @@ body
     z-index: 2;
     margin-top: -120px;
     margin-bottom: 20px;
+    text-align: center ;
 }
 
 #NameHead a
@@ -180,6 +183,15 @@ h1
     font-size: 30px;
     letter-spacing: 3px;
     font-family: 'Karla', sans-serif;
+}
+
+#NameLogo
+{
+    text-align: center;
+    padding-top: 20px;
+    width: 150px;
+    height: 80px;
+    margin: auto;
 }
 
 #Container
@@ -235,6 +247,11 @@ h1
     {
         width: 1.5em;
         height: 1.5em;
+    }
+
+    #topImg
+    {
+        margin-left: -0.5em;
     }
 }
 

@@ -46,7 +46,6 @@ nav
     position: fixed;
     margin-top: 20px;
     padding-right: 15px;
-    margin-left: 0em;
 }
 
 #NavSocials a 
@@ -132,6 +131,7 @@ body
     z-index: 2;
     margin-top: -120px;
     margin-bottom: 20px;
+    text-align: center ;
 }
 
 #NameHead a
@@ -147,6 +147,15 @@ h1
     font-size: 30px;
     letter-spacing: 3px;
     font-family: 'Karla', sans-serif;
+}
+
+#NameLogo
+{
+    text-align: center;
+    padding-top: 20px;
+    width: 150px;
+    height: 80px;
+    margin: auto;
 }
 
 #Container
@@ -233,6 +242,31 @@ h1
     {
         width: 1.5em;
         height: 1.5em;
+    }
+
+    .divBg
+    {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+
+    #BSbg, #CMVCbg
+    {
+        background-size:  180%;
+    }
+
+    #CMVCLogo
+    {
+        padding: 5.6em;
+        width: 5em;
+        transform: rotate(-90deg);
+    }
+
+    .divCap
+    {
+        font-size: 10px;
     }
 }
 
