@@ -45,7 +45,7 @@ nav
     display: block;
     position: fixed;
     margin-top: 20px;
-    padding-right: 15px;
+    margin-right: 3%;
     margin-left: 68em;
 }
 
@@ -165,8 +165,8 @@ h1
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 5em;
 }
 
