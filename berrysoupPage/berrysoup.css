@@ -204,64 +204,152 @@ h1
     text-align: center;
 }
 
+#Device
+{
+    margin-bottom: 5%;
+}
+
+#Mobile, #Desktop
+{
+    color: black;
+    font-family: 'Gaegu', sans-serif;
+    color: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Mobile
+{
+    background-image: url(Images/BackgroundM.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#Desktop
+{
+    background-image: url(Images/BackgroundD.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#MImg
+{
+    width: 30%;
+    height: 30%;
+    margin-right: 1.5em;
+}
+
+#DImg
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 1.5em;
+}
+
+h4
+{
+    font-size: 40px;
+    margin-bottom: 0em;
+    text-align: justify;
+    text-transform: uppercase;
+    padding-left: 0.35em;
+}
+
+#DeviceText
+{
+    text-align: justify;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .ImgSect
 {
     width: 100%;
     margin-bottom: 3em;
 }
 
+#HeadText
+{
+    margin-bottom: 3em;
+}
+
+
 h2
 {
     font-family: 'Gaegu', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0.5em;
     color: #373737;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0em;
 }
 
 h3
 {
+    display: block;
     font-family: 'Gaegu', sans-serif;
-    font-size: 18px;
+    float: middle;
+    font-size: 16px;
     font-weight: 200;
     text-transform: uppercase;
-    float: left;
-    color: #70AAD7;
+    color: white;
+    background-color: #70AAD7;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+#Mediums
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text
+{
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+    font-weight: 50;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    color: #373737;
 }
 
 #role
 {
     text-transform: uppercase;
     color: #70AAD7;
-}
-
-#HeadText p
-{
+    font-weight: 700;
     font-family: 'Gaegu', sans-serif;
     font-size: 18px;
-    font-weight: 100;
     padding-left: 5%;
     padding-right: 5%;
-    text-align: center;
-    color: #373737;
+    text-align: justify;
+    color: #70AAD7;
 }
 
 #Link
 {
     width: 25%;
     min-width: 10em;
-    margin-bottom: 4em;
+    margin-bottom: 4.5em;
 }
 
 #Link:hover
 {
     opacity: 80%;
-}
-
-#DeviceImg
-{
-    margin-bottom: -1em;
 }
 
 #FCImg
@@ -272,8 +360,8 @@ h3
 #LogoImg
 {
     width: 30%;
-    margin-bottom: 5em;
-    margin-top: 3em;
+    padding-bottom: 4em;
+    padding-top: 4em;
 }
 
 @media screen and (max-width: 550px)
@@ -296,14 +384,19 @@ h3
         height: 1.5em;
     }
 
-    h2
+    h2, h4
     {
         font-size: 30px;
     }
 
-    #HeadText p, h3
+    #HeadText p, #DeviceText
     {
         font-size: 12px;
+    }
+
+    h3
+    {
+        font-size: 10px;
     }
 
     #topImg
