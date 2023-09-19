@@ -45,7 +45,7 @@ nav
     display: block;
     position: fixed;
     margin-top: 20px;
-    margin-right: 3%;
+    margin-right: 15px;
     margin-left: 0em;
 }
 
@@ -215,11 +215,42 @@ h2
     font-family: 'Gaegu', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    color: #373737;
+}
+
+h3
+{
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    float: left;
+    color: #70AAD7;
+}
+
+#role
+{
+    text-transform: uppercase;
+    color: #70AAD7;
+}
+
+#HeadText p
+{
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: #373737;
 }
 
 #Link
 {
     width: 25%;
+    min-width: 10em;
     margin-bottom: 4em;
 }
 
@@ -242,6 +273,7 @@ h2
 {
     width: 30%;
     margin-bottom: 5em;
+    margin-top: 3em;
 }
 
 @media screen and (max-width: 550px)
@@ -262,6 +294,16 @@ h2
     {
         width: 1.5em;
         height: 1.5em;
+    }
+
+    h2
+    {
+        font-size: 30px;
+    }
+
+    #HeadText p, h3
+    {
+        font-size: 12px;
     }
 
     #topImg

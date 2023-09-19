@@ -45,7 +45,7 @@ nav
     display: block;
     position: fixed;
     margin-top: 20px;
-    margin-right: 3%;
+    margin-right: 15px;
     margin-left: 68em;
 }
 
@@ -196,8 +196,14 @@ h2
 
 #text
 {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin: auto;
+    width: 85%;
+    min-width: 12em;
+}
+
+.abtTxt
+{
+    font-size: 16px;
 }
 
 #pfpBox
@@ -236,6 +242,17 @@ h2
     min-width: 15em;
     width: 15em;
     height: 19em;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.abtTxt
+{
+    font-size: 14px;
+    text-align: justify;
 }
 
 }
