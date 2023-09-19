@@ -311,6 +311,7 @@ h3
 
 #Mediums
 {
+    margin-top: -1em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,6 +324,7 @@ h3
     font-weight: 50;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1em;
     text-align: justify;
     color: #373737;
 }

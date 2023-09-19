@@ -232,17 +232,17 @@ h1
 #DRPImg
 {
     width: 95%;
-    min-width: 10em;
     margin-left: -10em;
     float: right;
+    max-width: 70em;
 }
 
 #ANCImg
 {
     width: 85%;
-    min-width: 10em;
     margin-top: 3em;
     margin-right: -10em;
+    max-width: 60em;
     float: left;
 }
 
@@ -250,12 +250,12 @@ h1
 {
     width: 80%;
     margin-top: 5%;
+    padding-bottom: 3em;
 }
 
 #ANCPara, #DRPPara
 {
     text-align: left;
-    min-width: 12em;
     font-weight: 300;
 }
 
@@ -282,6 +282,7 @@ h1
     color: white;
     font-family: 'Outfit', sans-serif;
     padding-bottom: 3em;
+    transition: 0.3s;
 }
 
 #Device
@@ -293,6 +294,7 @@ h1
     font-family: 'Outfit', sans-serif;
     padding-bottom: 5%;
     padding-top: 5%;
+    transition: 0.3s;
 }
 
 #HeadParent, #DeviceParent
@@ -382,10 +384,7 @@ h3
 
 #Link
 {
-    width: 40%;
-    min-width: 10em;
-    margin-top: -4em;
-    padding-bottom: 5em;
+    width: 20em;
     z-index: 1;
 }
 
@@ -396,8 +395,8 @@ h3
 
 #FCImg
 {
-    margin-top: -0.5em;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 4%;
 }
 
 @media screen and (max-width: 750px)
@@ -405,6 +404,11 @@ h3
     h2, h4, h5
     {
         font-size: 22px;
+    }
+
+    #Link
+    {
+        width: 18em;
     }
 
     #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
@@ -441,6 +445,11 @@ h3
     h2, h4, h5
     {
         font-size: 18px;
+    }
+
+    #Link
+    {
+        width: 14em;
     }
 
     #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
