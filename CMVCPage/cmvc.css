@@ -209,14 +209,184 @@ h1
     margin-bottom: 3em;
 }
 
+#LaptopImg
+{
+    width: 100%;
+    margin-top: 3em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#SideImg
+{
+    width: 80%;
+    float: left;
+}
+
+#HeadLogo
+{
+    width: 40%;
+    margin: auto;
+}
+
+#DRPImg
+{
+    width: 95%;
+    min-width: 10em;
+    margin-left: -10em;
+    float: right;
+}
+
+#ANCImg
+{
+    width: 85%;
+    min-width: 10em;
+    margin-top: 3em;
+    margin-right: -10em;
+    float: left;
+}
+
+#PCImg
+{
+    width: 80%;
+    margin-top: 5%;
+}
+
+#ANCPara, #DRPPara
+{
+    text-align: left;
+    min-width: 12em;
+    font-weight: 300;
+}
+
+#PCPara
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: -1em;
+    font-weight: 300;
+}
+
+#Device
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#Head
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 3em;
+}
+
+#Device
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#HeadParent, #DeviceParent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HeadTextParent
+{
+    margin-bottom: 5em;
+    margin-right: 5%;
+}
+
+#DeviceTextParent
+{
+    margin-bottom: 5em;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h5
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#role
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#contributors
+{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#HeadPara1, #HeadPara2
+{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+}
+
+#Mediums
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3
+{
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    float: middle;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: #061922;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
 #Link
 {
-    width: 30%;
-    margin-top: -10em;
-    margin-bottom: 7em;
-    z-index: 2;
-    position: relative;
-    display: inline-block;
+    width: 40%;
+    min-width: 10em;
+    margin-top: -4em;
+    padding-bottom: 5em;
+    z-index: 1;
 }
 
 #Link:hover
@@ -226,7 +396,26 @@ h1
 
 #FCImg
 {
-    margin-top: -1em;
+    margin-top: -0.5em;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 750px)
+{
+    h2, h4, h5
+    {
+        font-size: 22px;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 14px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 550px)
@@ -247,6 +436,21 @@ h1
     {
         width: 1.5em;
         height: 1.5em;
+    }
+
+    h2, h4, h5
+    {
+        font-size: 18px;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 11px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 9px;
     }
 
     #topImg
