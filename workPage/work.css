@@ -42,8 +42,9 @@ nav
 #NavSocials
 {
     right: 0;
-    display: block;
+    display: flex;
     position: fixed;
+    flex-direction:column;
     margin-top: 20px;
     margin-right: 15px;
 }
@@ -51,6 +52,7 @@ nav
 #NavSocials a 
 {
     display: block;
+    position: relative;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;

@@ -42,16 +42,17 @@ nav
 #NavSocials
 {
     right: 0;
-    display: inline;
+    display: flex;
     position: fixed;
+    flex-direction:column;
     margin-top: 20px;
     margin-right: 15px;
-    margin-left: -2em;
 }
 
 #NavSocials a 
 {
     display: block;
+    position: relative;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
