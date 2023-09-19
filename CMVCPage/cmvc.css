@@ -196,8 +196,8 @@ h1
 
 #Container
 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 3em;
     padding-top: 5em;
     text-align: center;
@@ -434,6 +434,12 @@ h3
     .navbar a, .navbtn, #topBtn
     {
         font-size: 12px;
+    }
+
+    #Device, #Head
+    {
+        background-image: url(Images/background.png);
+        background-size: 200%;
     }
 
     .Socialsicon
