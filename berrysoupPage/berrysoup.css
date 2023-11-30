@@ -313,6 +313,21 @@ h4
     padding-right: 1em;
 }
 
+.ScreenshotContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Screenshot
+{
+    width: 45%;
+    margin: 2%;
+    margin-bottom: 3em;
+}
+
 .ImgSect
 {
     width: 100%;
