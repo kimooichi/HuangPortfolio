@@ -30,7 +30,7 @@ nav
     list-style-type: none;
     border: none;
     background-color: inherit;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .navbar a:hover
@@ -84,7 +84,7 @@ nav
     writing-mode: vertical-rl;
     padding-top: 200px;
     padding-bottom: 10px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 14px;
     color: black;
     font-weight: 300;
@@ -113,7 +113,7 @@ nav
 body
 {
     margin: 0; /* Body has a default margin of 8px */
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -194,13 +194,72 @@ h1
     margin: auto;
 }
 
-#Container
+#Heading
 {
-    margin-left: 4em;
-    margin-right: 4em;
     margin-top: 3em;
     padding-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Heading h2
+{
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+#bold
+{
+    font-weight: 500;
+}
+
+h2
+{
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+#Labelling
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+}
+
+#LiveLink a
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    text-transform: uppercase;
+}
+
+#Caption
+{
+    line-height: 2em;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    max-width: 28em;
+    text-align: justify;
+    padding-top: 3em;
+}
+
+#Container
+{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.SCimg1
+{
+    width: 80%;
+    margin: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .ImgSect
@@ -281,8 +340,10 @@ h1
     background-repeat: no-repeat;
     color: white;
     font-family: 'Outfit', sans-serif;
-    padding-bottom: 3em;
+    padding: 10%;
     transition: 0.3s;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #Device
@@ -431,10 +492,16 @@ h3
         width: 550px;
     }
 
+    #Heading
+    {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
     #Container
     {
-        margin-left: 3em;
-        margin-right: 3em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .navbar a, .navbtn, #topBtn
@@ -533,3 +600,4 @@ footer
 }
 
 /*Footer Ends Here*/
+
