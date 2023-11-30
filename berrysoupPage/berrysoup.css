@@ -159,7 +159,6 @@ body
     z-index: 2;
 }
 
-
 #NameHead
 {
     position: fixed;
@@ -196,12 +195,60 @@ h1
     margin: auto;
 }
 
-#Container
+
+#Heading
 {
-    margin-left: 4em;
-    margin-right: 4em;
     margin-top: 3em;
     padding-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Heading h2
+{
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+#bold
+{
+    font-weight: 500;
+}
+
+#Labelling
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+}
+
+#LiveLink a
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    text-transform: uppercase;
+}
+
+#Caption
+{
+    line-height: 2em;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    max-width: 28em;
+    text-align: justify;
+    padding-top: 3em;
+}
+
+#Container
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3em;
     text-align: center;
 }
 
@@ -275,21 +322,6 @@ h4
 #HeadText
 {
     margin-bottom: 3em;
-}
-
-
-h2
-{
-    font-family: 'Gaegu', sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 0.5em;
-    color: #373737;
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 0em;
 }
 
 h3
