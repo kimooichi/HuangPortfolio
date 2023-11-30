@@ -225,9 +225,17 @@ h2
     transition: 0.3s;
 }
 
-.FilmPosts
+#myVideo 
 {
-    padding: 3px;
+    cursor: pointer;  
+    filter: brightness(100%);
+    transition: 0.3s;  
+}
+
+#myVideo:hover 
+{
+    filter: brightness(60%);
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 550px)
@@ -250,18 +258,11 @@ h2
         height: 1.5em;
     }
 
-    .divBg
+    #myVideo
     {
-        margin: auto;
-        width: 250px;
-        height: 250px;
-        border-radius: 15px;
-    }
-
-    #CMVCbg
-    {
-        background-size:  180%;
-    }
+        width: 340px; 
+        height: 260px;
+    } 
 }
 
 /*Page Ends Here*/
