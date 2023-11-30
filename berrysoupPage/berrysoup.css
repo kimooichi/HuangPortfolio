@@ -195,13 +195,12 @@ h1
     margin: auto;
 }
 
-
 #Heading
 {
     margin-top: 3em;
     padding-top: 5em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 #Heading h2
@@ -330,7 +329,7 @@ h4
 
 .ImgSect
 {
-    width: 100%;
+    width: 92%;
     margin-bottom: 3em;
 }
 
