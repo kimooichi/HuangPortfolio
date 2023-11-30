@@ -4,8 +4,7 @@ nav
 {
     transform-origin: left top;
     transform: rotate(-90deg) translateX(-100%);  
-    width: 550px;
-    padding-right: 40px;
+    width: 590px;
 }
 
 .navbar
@@ -233,8 +232,7 @@ h1
     {
         transform-origin: left top;
         transform: rotate(-90deg) translateX(-100%);  
-        width: 500px;
-        padding-right: 50px;
+        width: 550px;
     }
 
     .navbar a, .navbtn
