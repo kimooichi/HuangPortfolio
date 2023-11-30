@@ -303,7 +303,7 @@ h1
 {
     width: 80%;
     margin-top: 5%;
-    padding-bottom: 3em;
+    padding-bottom: 10em;
 }
 
 #ANCPara, #DRPPara
@@ -367,7 +367,7 @@ h1
 
 #DeviceTextParent
 {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 h2
@@ -450,8 +450,7 @@ h3
 
 #FCImg
 {
-    margin-top: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 1.5em;
 }
 
 @media screen and (max-width: 750px)
