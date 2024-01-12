@@ -10,6 +10,12 @@ function change2() {
 function revert2() {
     document.getElementById("BSCap").innerHTML = "2022 . FIRST DAY OF SCHOOL";   
 }
+function change3() {
+    document.getElementById("ChefRCap").innerHTML = "MINI DOCUMENTARY + FILM";   
+}
+function revert3() {
+    document.getElementById("ChefRCap").innerHTML = "2023 . CHEF RIC";   
+}
 
 $(window).on('load', function () {
     $('#loading').hide();

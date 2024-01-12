@@ -218,6 +218,12 @@ h1
     background-size: 100%;
 }
 
+#ChefRbg
+{
+    background: url('Images/ChefRic2.png') no-repeat;
+    background-size: 100%;
+}
+
 .divCap
 {
     text-decoration: none;
@@ -259,7 +265,7 @@ h1
     {
         margin: auto;
         width: 270px;
-        height: 205px;
+        height: 200px;
         border-radius: 15px;
     }
 
