@@ -208,12 +208,12 @@ h1
 #Bleblebg
 {
     background: url('Images//bleble.png') no-repeat;
-    background-size: 180%;
+    background-size: 100%;
 }
 
 #Agribg {
-    background: black, rgba(0, 0, 0, 0.2), url('Images/illusMap.png') no-repeat;
-    background-size: 180%;
+    background: url('Images/Agri.png') no-repeat;
+    background-size: 100%;
 }
 
 #AgriLogo
