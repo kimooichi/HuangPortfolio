@@ -10,6 +10,12 @@ function change2() {
 function revert2() {
     document.getElementById("BSCap").innerHTML = "2022 . BERRY SOUP";   
 }
+function change3() {
+    document.getElementById("AgriCap").innerHTML = "UI DESIGN + GRAPHIC DESIGN";   
+}
+function revert3() {
+    document.getElementById("AgriCap").innerHTML = "2024 . CANADA AGRICULTURE AND FOOD MUSEUM";   
+}
 
 $(window).on('load', function () {
     $('#loading').hide();

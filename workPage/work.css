@@ -205,6 +205,19 @@ h1
     border-radius: 15px;
 }
 
+#Agribg
+{
+    background: white;
+    background-size: 180%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+#AgriLogo
+{
+    padding: 6em;
+    width: 7em;
+}
+
 #CMVCbg
 {
     background: linear-gradient(to bottom right, black, transparent 60%), url('Images/CMVC.png') no-repeat;
@@ -271,6 +284,12 @@ h1
         padding: 5.6em;
         width: 5em;
         transform: rotate(-90deg);
+    }
+
+    #AgriLogo
+    {
+        padding: 5.6em;
+        width: 5em;
     }
 
     .divCap
