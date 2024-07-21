@@ -185,7 +185,7 @@ body
 
 #bannerImg
 {
-    width: 110%;
+    width: 100%;
     margin: 2%;
 }
 
@@ -284,6 +284,13 @@ h2
 {
     width: 100%;
     margin: 2%;
+}
+
+.SCimg2
+{
+    width: 100%;
+    margin: 2%;
+    margin-top: 5%;
 }
 
 #Logo
