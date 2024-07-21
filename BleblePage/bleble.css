@@ -113,7 +113,7 @@ nav
 body
 {
     margin: 0; /* Body has a default margin of 8px */
-    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -175,6 +175,20 @@ body
     text-decoration: none;
 }
 
+
+#banner
+{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#bannerImg
+{
+    width: 110%;
+    margin: 2%;
+}
+
 h1
 {
     color: black;
@@ -198,19 +212,14 @@ h1
 {
     margin-top: 3em;
     padding-top: 5em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-#Heading h2
+h2
 {
     font-size: 18px;
     font-family: 'Karla', sans-serif;
-}
-
-#bold
-{
-    font-weight: 500;
 }
 
 #Labelling
@@ -221,28 +230,50 @@ h1
     color: #585858;
 }
 
-#LiveLink a
-{
-    font-size: 11px;
-    letter-spacing: 1px;
-    font-family: 'Karla', sans-serif;
-    color: #585858;
-    text-transform: uppercase;
-}
-
 #Caption
 {
+    padding-top: 2em;
+    padding-bottom: 1em;
     line-height: 2em;
     word-spacing: 1px;
     font-size: 13px;
     font-family: 'Karla', sans-serif;
     color: #585858;
-    max-width: 28em;
+    width: 20em;
     text-align: justify;
-    padding-top: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ContainerChild a
+{
+    text-decoration: none;
+    filter: brightness(100%);
+    transition: 0.3s;
+}
+
+.ContainerChild
+{
+    margin: 0.5em;
+}
+
+.ContainerChild a:hover
+{
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+#Container2
 {
     text-align: center;
     margin-left: 10%;
@@ -251,236 +282,14 @@ h1
 
 .SCimg1
 {
-    width: 80%;
-    margin: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.SCimg2, .SCimg3
-{
-    width: 80%;
-    margin: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-.ImgSect
-{
     width: 100%;
-    margin-bottom: 3em;
+    margin: 2%;
 }
 
-#LaptopImg
+#Logo
 {
-    width: 100%;
-    margin-top: 3em;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-#SideImg
-{
-    width: 80%;
-    float: left;
-}
-
-#HeadLogo
-{
-    width: 40%;
-    margin: auto;
-}
-
-#DRPImg
-{
-    width: 95%;
-    margin-left: -10em;
-    float: right;
-    max-width: 70em;
-}
-
-#ANCImg
-{
-    width: 85%;
-    margin-top: 3em;
-    margin-right: -10em;
-    max-width: 60em;
-    float: left;
-}
-
-#PCImg
-{
-    width: 80%;
-    margin-top: 5%;
-    padding-bottom: 10em;
-}
-
-#ANCPara, #DRPPara
-{
-    text-align: left;
-    font-weight: 300;
-}
-
-#PCPara
-{
-    text-align: center;
-    margin: auto;
-    width: 60%;
-    margin-top: -1em;
-    font-weight: 300;
-}
-
-#Device
-{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#Head
-{
-    background-image: url(Images/background.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    padding: 10%;
-    transition: 0.3s;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-#Device
-{
-    background-image: url(Images/background.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    transition: 0.3s;
-}
-
-#HeadParent, #DeviceParent
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#HeadTextParent
-{
-    margin-bottom: 5em;
-    margin-right: 5%;
-}
-
-#DeviceTextParent
-{
-    margin-bottom: 1em;
-}
-
-h2
-{
-    text-align: left;
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-h4
-{
-    text-align: left;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-h5
-{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-#role
-{
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-#contributors
-{
-    font-weight: 600;
-    font-size: 12px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-#HeadPara1, #HeadPara2
-{
-    font-weight: 300;
-    font-size: 16px;
-    text-align: left;
-}
-
-#Mediums
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h3
-{
-    display: block;
-    font-family: 'Outfit', sans-serif;
-    float: middle;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    background-color: #061922;
-    padding: 8px;
-    border-radius: 10px;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
-}
-
-#Link
-{
-    width: 20em;
-    z-index: 1;
-}
-
-#Link:hover
-{
-    opacity: 80%;
-}
-
-#FCImg
-{
-    margin-bottom: 1.5em;
-}
-
-@media screen and (max-width: 750px)
-{
-    h2, h4, h5
-    {
-        font-size: 22px;
-    }
-
-    #Link
-    {
-        width: 18em;
-    }
-
-    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
-    {
-        font-size: 14px;
-    }
-
-    h3, #contributors
-    {
-        font-size: 12px;
-    }
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 550px)
@@ -492,27 +301,15 @@ h3
         width: 550px;
     }
 
-    #Heading
-    {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-
-    #Container
-    {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-
-    .navbar a, .navbtn, #topBtn
+    .navbar a, .navbtn
     {
         font-size: 12px;
     }
 
-    #Device, #Head
+    #Container2
     {
-        background-image: url(Images/background.png);
-        background-size: 200%;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     .Socialsicon
@@ -521,32 +318,12 @@ h3
         height: 1.5em;
     }
 
-    h2, h4, h5
+    #Logo
     {
-        font-size: 18px;
-    }
-
-    #Link
-    {
-        width: 14em;
-    }
-
-    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
-    {
-        font-size: 11px;
-    }
-
-    h3, #contributors
-    {
-        font-size: 9px;
-    }
-
-    #topImg
-    {
-        margin-left: -0.5em;
+        width: 100px;
+        margin-bottom: 2em;
     }
 }
-
 
 /*Page Ends Here*/
 /*Footer Starts Here*/
@@ -600,4 +377,3 @@ footer
 }
 
 /*Footer Ends Here*/
-

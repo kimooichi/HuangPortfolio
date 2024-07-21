@@ -16,6 +16,12 @@ function change3() {
 function revert3() {
     document.getElementById("AgriCap").innerHTML = "2024 . CANADA AGRICULTURE AND FOOD MUSEUM";   
 }
+function change4() {
+    document.getElementById("BlebleCap").innerHTML = "UI DESIGN + GRAPHIC DESIGN + BRAND IDENTITY";
+}
+function revert4() {
+    document.getElementById("BlebleCap").innerHTML = "2024 . BLÉBLÉ CAFE";   
+}
 
 $(window).on('load', function () {
     $('#loading').hide();
