@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kimberly Huang</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="AgriCan.css">
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Borel&family=DM+Serif+Display&family=Inconsolata&family=Karla:wght@400;500&family=League+Spartan:wght@500&family=Mulish:wght@500&family=Nunito+Sans:wght@300;400;500&family=Nunito:wght@500;600;700&family=Open+Sans&family=Sintony&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Chelsea+Market&family=Darumadrop+One&family=Dokdo&family=Freckle+Face&family=Gaegu:wght@400;700&family=Homemade+Apple&family=Lacquer&family=Mansalva&family=Nerko+One&family=Reenie+Beanie&family=Righteous&family=Rubik+Puddles&family=Slackside+One&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -26,7 +30,7 @@
         <img id="loading-image" src="Icons/Loading.gif" alt="Loading..." />
     </div>
     <div id="fixedNav">
-     <nav> 
+    <nav> 
         <ul class="navbar">
             <li class="navsection">
                 <button class="navbtn">
@@ -54,6 +58,7 @@
         <a href="https://github.com/kimooichi"><img class="Socialsicon" id="Github" src="Icons/color_github.png" alt="Github"></a>
         <a href="https://www.instagram.com/kimberlyyhuang/?hl=en"><img class="Socialsicon" id="IG" src="Icons/color_instagram.png" alt="Instagram"></a>
         <a href="https://www.linkedin.com/in/kimberly-huang-4a03b51b8/"><img class="Socialsicon" id="Linkedin" src="Icons/color_linkedin.png" alt="Linkedin"></a>
+        <button onclick="topFunction()" id="topBtn" title="Go to top"><img src="Icons/up.png" alt="top" id="topImg"></button>
     </div>
 
     <div id="NameHead">
@@ -65,23 +70,53 @@
     </div>
     </div>
 
-    <div id="Container">
-        <div class="ContainerChild" id="pfpBox"></div>
-        <div class="ContainerChild" id="text">
-            <h2>Hi there, <span id="name">I'm Kim!</span></h2>
-            <p class="abtTxt">
-                I'm a Media Production & Design student at Carleton University working towards becoming a UI/UX designer. I'm based in Ottawa and have a passion for <span class="underline">digital art</span>, <span class="underline">animation</span>, <span class="underline">matcha lattes</span>, and turning <span class="underline">creativity</span> into a visual reality.
-            </p>
-            <p class="abtTxt">
-                Anyways, enjoy this pic of me with a chai latte on my right and matcha on my left. Don't hesitate to send me a chat! 
-            </p>
+    
+
+    <div id="Heading">
+        <h2>
+            AGRICULTURE FOOD CANADA
+        </h2>
+        <p id="Labelling">
+            [UI DESIGN, GRAPHIC DESIGN | MEDIUMS - PROCREATE, ADOBE ILLUSTRATOR, ADOBE INDESIGN, ADOBE XD]
+        </p>
+        <div id="LiveLink">
+            <a href="https://xd.adobe.com/view/fedf2ada-66ea-4014-97a9-58bccec03b2b-ab8c/" alt="LiveLink">Scavenger Hunt Live Link</a>
         </div>
+        <p id="Caption">
+            This 4 month project for Agriculture Food Canada was part of my MPAD2002 Visual communications course to develop skills within Adobe software. Whereas the main focus was to understand how to use colour, shapes, and theory to target specific demographics and create indirect meaningful messages. For this project, my main audience was children, with the goal of creating a playful and fun learning environment.
+        </p>
+        <p id="Caption">
+            This project involved creating an illustrative map on Adobe Illustrator, a brochure on Adobe InDesign, and an interactice scavengar hunt game on Adobe XD.
+        </p>
     </div>
 
+    <div id="Container">
+        
+        <div id="Head">
+            <img class="SCimg1" src="Images/illusMap.png" alt="Screenshots">
+            <img class="SCimg2" src="Images/brochure.png" alt="Screenshots">
+        </div>
+    </div>
+    
     <script>
         $(window).on('load', function () {
           $('#loading').hide();
         }) 
+
+        var btn = $('#topBtn');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({scrollTop:0}, '300');
+        });
     </script>
 </body>
 <footer>

@@ -1,0 +1,596 @@
+/*Nav Starts Here*/
+nav
+{
+    transform-origin: left top;
+    transform: rotate(-90deg) translateX(-100%);  
+    width: 590px;
+}
+
+.navbar
+{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.navsection
+{
+    list-style-type: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.navbar a, .navbtn
+{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    background-color: inherit;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar a:hover
+{
+    font-weight: 400;
+}
+
+#NavSocials
+{
+    right: 0;
+    display: flex;
+    position: fixed;
+    flex-direction:column;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+#NavSocials a 
+{
+    display: block;
+    position: relative;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.Socialsicon
+{
+    width: 2em;
+    height: 2em;
+    filter: brightness(0);
+    transition: 0.3s;
+}
+
+.Socialsicon:hover
+{
+    filter: none;
+    transition: 0.3s;
+}
+
+#topBtn
+{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    display: block;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    bottom: 70px;
+    cursor: pointer;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#topBtn.show 
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+#topImg
+{
+    margin-left: 0em;
+    width: 2em;
+    height: 2em;
+}
+
+/*Nav Ends Here*/
+/*Page Starts Here*/
+body
+{
+    margin: 0; /* Body has a default margin of 8px */
+    font-family: 'Karla', sans-serif;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeInAnimation 
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#loading 
+{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: #fff;
+    z-index: 99;
+}
+  
+#loading-image 
+{
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+}
+
+#fixedNav
+{
+    position: fixed;
+    z-index: 2;
+}
+
+#NameHead
+{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    margin-top: -120px;
+    margin-bottom: 20px;
+    text-align: center ;
+}
+
+#NameHead a
+{
+    text-decoration: none;
+}
+
+h1
+{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Karla', sans-serif;
+}
+
+#NameLogo
+{
+    text-align: center;
+    padding-top: 20px;
+    width: 150px;
+    height: 80px;
+    margin: auto;
+}
+
+#Heading
+{
+    margin-top: 3em;
+    padding-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Heading h2
+{
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+#bold
+{
+    font-weight: 500;
+}
+
+#Labelling
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+}
+
+#LiveLink a
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    text-transform: uppercase;
+}
+
+#Caption
+{
+    line-height: 2em;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+    color: #585858;
+    max-width: 28em;
+    text-align: justify;
+    padding-top: 3em;
+}
+
+#Container
+{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.SCimg1
+{
+    width: 80%;
+    margin: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ImgSect
+{
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+#LaptopImg
+{
+    width: 100%;
+    margin-top: 3em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#SideImg
+{
+    width: 80%;
+    float: left;
+}
+
+#HeadLogo
+{
+    width: 40%;
+    margin: auto;
+}
+
+#DRPImg
+{
+    width: 95%;
+    margin-left: -10em;
+    float: right;
+    max-width: 70em;
+}
+
+#ANCImg
+{
+    width: 85%;
+    margin-top: 3em;
+    margin-right: -10em;
+    max-width: 60em;
+    float: left;
+}
+
+#PCImg
+{
+    width: 80%;
+    margin-top: 5%;
+    padding-bottom: 10em;
+}
+
+#ANCPara, #DRPPara
+{
+    text-align: left;
+    font-weight: 300;
+}
+
+#PCPara
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: -1em;
+    font-weight: 300;
+}
+
+#Device
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#Head
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding: 10%;
+    transition: 0.3s;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#Device
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    transition: 0.3s;
+}
+
+#HeadParent, #DeviceParent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HeadTextParent
+{
+    margin-bottom: 5em;
+    margin-right: 5%;
+}
+
+#DeviceTextParent
+{
+    margin-bottom: 1em;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h5
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#role
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#contributors
+{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#HeadPara1, #HeadPara2
+{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+}
+
+#Mediums
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3
+{
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    float: middle;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: #061922;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+#Link
+{
+    width: 20em;
+    z-index: 1;
+}
+
+#Link:hover
+{
+    opacity: 80%;
+}
+
+#FCImg
+{
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 750px)
+{
+    h2, h4, h5
+    {
+        font-size: 22px;
+    }
+
+    #Link
+    {
+        width: 18em;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 14px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    nav
+    {
+        transform-origin: left top;
+        transform: rotate(-90deg) translateX(-100%);  
+        width: 550px;
+    }
+
+    #Heading
+    {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    #Container
+    {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .navbar a, .navbtn, #topBtn
+    {
+        font-size: 12px;
+    }
+
+    #Device, #Head
+    {
+        background-image: url(Images/background.png);
+        background-size: 200%;
+    }
+
+    .Socialsicon
+    {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    h2, h4, h5
+    {
+        font-size: 18px;
+    }
+
+    #Link
+    {
+        width: 14em;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 11px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 9px;
+    }
+
+    #topImg
+    {
+        margin-left: -0.5em;
+    }
+}
+
+
+/*Page Ends Here*/
+/*Footer Starts Here*/
+
+footer
+{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#FooterHr
+{
+    width: 70%;
+    text-align: center;
+    border: 0.5px solid #c4c4c47b;
+}
+
+#FooterText
+{
+    padding-top: 8px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #c4c4c4;
+}
+
+#FooterSocials
+{
+    text-align: center;
+}
+
+.FSocialsicon
+{
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 40%;
+    filter: brightness(0);
+    transition: 0.3s;
+}
+
+.FSocialsicon:hover
+{
+    filter: none;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+/*Footer Ends Here*/
+
