@@ -205,6 +205,12 @@ h1
     border-radius: 15px;
 }
 
+#NRCanbg
+{
+    background: url('Images//Earth.jpg') no-repeat;
+    background-size: 100%;
+}
+
 #Bleblebg
 {
     background: url('Images//bleble.png') no-repeat;
