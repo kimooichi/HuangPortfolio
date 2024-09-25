@@ -22,6 +22,12 @@ function change4() {
 function revert4() {
     document.getElementById("BlebleCap").innerHTML = "2024 . BLÉBLÉ CAFE";   
 }
+function change5() {
+    document.getElementById("NRCanCap").innerHTML = "UI/UX DESIGN + WIREFRAMING + PROTOTYPING";
+}
+function revert5() {
+    document.getElementById("NRCanCap").innerHTML = "2024 . NATURAL RESOURCES CANADA";   
+}
 
 $(window).on('load', function () {
     $('#loading').hide();
