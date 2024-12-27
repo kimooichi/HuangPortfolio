@@ -249,6 +249,28 @@ h1
     margin-right: 10%;
 }
 
+#LiveBtn
+{
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1em;
+    width: 12em;
+    color: white;
+}
+
+#BtnContainer a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#LiveBtn:hover
+{
+    opacity: 85%;
+}
+
 .SCimg1
 {
     width: 130%;
