@@ -1,3 +1,9 @@
+function change4() {
+    document.getElementById("SomCap").innerHTML = "INFOGRAPHIC";   
+}
+function revert4() {
+    document.getElementById("SomCap").innerHTML = "2024 . SOMERSET WARD";   
+}
 function change1() {
     document.getElementById("CMVCCap").innerHTML = "SOCIAL MEDIA CONTENT + DESIGN";   
 }
