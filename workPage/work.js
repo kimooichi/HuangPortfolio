@@ -14,7 +14,7 @@ function change3() {
     document.getElementById("AgriCap").innerHTML = "UI DESIGN + GRAPHIC DESIGN";   
 }
 function revert3() {
-    document.getElementById("AgriCap").innerHTML = "2024 . CANADA AGRICULTURE AND FOOD MUSEUM";   
+    document.getElementById("AgriCap").innerHTML = "2024 . AGRICULTURE AND FOOD MUSEUM";   
 }
 function change4() {
     document.getElementById("BlebleCap").innerHTML = "UI DESIGN + GRAPHIC DESIGN + BRAND IDENTITY";
