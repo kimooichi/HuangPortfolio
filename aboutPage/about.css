@@ -307,7 +307,7 @@ h2
     {
         position: fixed;
         left: -200%;
-        top: 5rem;
+        top: 3rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -330,7 +330,7 @@ h2
     .navsection 
     {
         display: fixed;
-        padding: 10px;
+        padding: 15px;
     }
     
     .hamburger 
