@@ -221,6 +221,31 @@ h2
     margin-top: 3em;
 }
 
+#SendBtn
+{
+    border: none;
+    margin-top: 1em;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.8em;
+    width: 10em;
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#SendBtn a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#SendBtn:hover
+{
+    opacity: 85%;
+}
+
 @media screen and (max-width: 820px)
 {
     #Container
@@ -257,6 +282,11 @@ h2
     text-align: justify;
 }
 
+#BtnContainer
+{
+    text-align: center;
+}
+
 }
 
 
@@ -278,6 +308,11 @@ h2
     {
         width: 1.5em;
         height: 1.5em;
+    }
+
+    #BtnContainer
+    {
+        text-align: center;
     }
 }
 
