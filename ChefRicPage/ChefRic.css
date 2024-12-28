@@ -2,16 +2,31 @@
 
 nav
 {
-    transform-origin: left top;
-    transform: rotate(-90deg) translateX(-100%);  
-    width: 590px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
 }
 
 .navbar
 {
     display:flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: right;
+}
+
+.hamburger 
+{
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 .navsection
@@ -22,48 +37,60 @@ nav
     padding-top: 15px;
 }
 
+#NameHead
+{
+    float: left;
+    text-decoration: none;
+    position: relative;
+    padding-left: 30px
+}
+
+#NameHead a
+{
+    text-decoration: none;
+}
+
+#navmenu
+{
+    float: right;
+    position: relative;
+    padding-right: 30px;
+}
+
+#navCurrent a
+{
+    color: Black;
+    font-weight: 400;
+}
+
+#navOthers a
+{
+    color: rgb(124, 124, 124);
+    font-weight: 300;
+}
+
 .navbar a, .navbtn
 {
     font-size: 14px;
-    color: black;
-    font-weight: 300;
     text-decoration: none;
     list-style-type: none;
     border: none;
     background-color: inherit;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "dm-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.navbar a:hover
+.navbtn a:hover
 {
-    font-weight: 400;
-}
-
-#NavSocials
-{
-    right: 0;
-    display: flex;
-    position: fixed;
-    flex-direction:column;
-    margin-top: 0px;
-    margin-right: 15px;
-}
-
-#NavSocials a 
-{
-    display: block;
-    position: relative;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    text-decoration: underline;
 }
 
 .Socialsicon
 {
     width: 2em;
     height: 2em;
+    padding: 2px;
     filter: brightness(0);
     transition: 0.3s;
 }
@@ -118,37 +145,22 @@ body
     height: 50px;
 }
 
-#fixedNav
+#nameLogo
 {
-    position: fixed;
-    z-index: 2;
-}
-
-#NameHead
-{
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 100px;
-    z-index: 2;
-    margin-top: -120px;
+    margin-top: 30px;
     margin-bottom: 20px;
     text-align: center ;
-}
-
-#NameHead a
-{
-    text-decoration: none;
 }
 
 h1
 {
     color: black;
     text-align: center;
-    padding-top: 20px;
-    font-size: 30px;
-    letter-spacing: 3px;
-    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-family: "dm-sans", sans-serif;
+    font-weight: 800;
 }
 
 #NameLogo

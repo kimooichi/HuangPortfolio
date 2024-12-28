@@ -9,6 +9,7 @@
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/yzw4xlo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Borel&family=DM+Serif+Display&family=Inconsolata&family=Karla:wght@400;500&family=League+Spartan:wght@500&family=Mulish:wght@500&family=Nunito+Sans:wght@300;400;500&family=Nunito:wght@500;600;700&family=Open+Sans&family=Sintony&display=swap" rel="stylesheet">
@@ -27,44 +28,44 @@
     </div>
     <div id="fixedNav">
     <nav> 
-        <ul class="navbar">
-            <li class="navsection">
-                <button class="navbtn">
-                    <a href="index.html">MY WORK</a>
-                </button>
-            </li>
-            <li class="navsection">
-                <button class="navbtn">
-                    <a href="aboutPage/about.html">ABOUT ME</a>
-                </button>
-            </li>
-            <li class="navsection">
-                <button class="navbtn">
-                    <a href="contactPage/contact.html">CONTACT</a> 
-                </button>
-            </li>
-            <li class="navsection">
-                <button class="navbtn">
-                    <a href="morePage/more.html"> + MORE FUN STUFF</a>  
-                </button>
-            </li>
-        </ul>
+        <div id="NameHead">
+            <a href="index.html">
+                <h1>
+                    KIM HUANG
+                </h1>
+            </a>
+        </div>
+        <div id="navmenu">
+            <ul class="navbar">
+                <li class="navsection">
+                    <button class="navbtn" id="navCurrent">
+                        <a href="index.html">PROJECTS</a>
+                    </button>
+                </li>
+                <li class="navsection" id="navOthers">
+                    <button class="navbtn">
+                        <a href="aboutPage/about.html">ABOUT ME</a>
+                    </button>
+                </li>
+                <li class="navsection" id="navOthers">
+                    <button class="navbtn">
+                        <a href="contactPage/contact.html">CONTACT</a> 
+                    </button>
+                </li>
+                <li class="navsection" id="navOthers">
+                    <button class="navbtn">
+                        <a href="morePage/more.html"> + MORE FUN STUFF</a>  
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    <div id="NavSocials">
-        <a href="https://github.com/kimooichi"><img class="Socialsicon" id="Github" src="workPage/Icons/color_github.png" alt="Github"></a>
-        <a href="https://www.instagram.com/kimberlyyhuang/?hl=en"><img class="Socialsicon" id="IG" src="workPage/Icons/color_instagram.png" alt="Instagram"></a>
-        <a href="https://www.linkedin.com/in/kimberly-huang-4a03b51b8/"><img class="Socialsicon" id="Linkedin" src="workPage/Icons/color_linkedin.png" alt="Linkedin"></a>
-        <a href="mailto:kimberlyyhuang@gmail.com"><img class="Socialsicon" id="Email" src="workPage/Icons/mail (1).png" alt="mail"></a>
-    </div>
 
-    <div id="NameHead">
-        <a href="index.html">
-            <h1>
-                KIM HUANG
-            </h1>
-        </a>
-    </div>
-    </div>
 
     <div id="Container">
         <div id="NRCan" class="ContainerChild" onmouseover="change5()" onmouseleave="revert5()">
@@ -96,6 +97,12 @@
     <hr id="FooterHr">
     <div id="FooterText">
         <p>CODED & DESIGNED BY KIM HUANG</p>
+        <div id="NavSocials">
+            <a href="https://github.com/kimooichi"><img class="Socialsicon" id="Github" src="workPage/Icons/color_github.png" alt="Github"></a>
+            <a href="https://www.instagram.com/kimberlyyhuang/?hl=en"><img class="Socialsicon" id="IG" src="workPage/Icons/color_instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/kimberly-huang-4a03b51b8/"><img class="Socialsicon" id="Linkedin" src="workPage/Icons/color_linkedin.png" alt="Linkedin"></a>
+            <a href="mailto:kimberlyyhuang@gmail.com"><img class="Socialsicon" id="Email" src="workPage/Icons/mail (1).png" alt="mail"></a>
+        </div>
     </div><br/>
 </footer>
 <html>
