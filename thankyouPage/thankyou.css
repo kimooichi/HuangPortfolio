@@ -189,19 +189,60 @@ h2
     font-family: 'Karla', sans-serif;
 }
 
-@media screen and (max-width: 550px)
+@media screen and (max-width: 800px)
 {
-    nav
+    .navbar 
     {
-        transform-origin: left top;
-        transform: rotate(-90deg) translateX(-100%);  
-        width: 550px;
+        position: fixed;
+        left: -200%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.5s;
+        box-shadow: none;
+        z-index: 2;
     }
-
+    
     .navbar a, .navbtn
     {
         font-size: 12px;
     }
+
+    .navbar.active 
+    {
+        left: 0;
+    }
+    
+    .navsection 
+    {
+        display: fixed;
+        padding: 10px;
+    }
+    
+    .hamburger 
+    {
+        display: block;
+        cursor: pointer;
+        float: right;
+        position: relative;
+        padding-top: 25px;
+        z-index: 2;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
 
     .Socialsicon
     {
