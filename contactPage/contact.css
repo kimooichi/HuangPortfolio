@@ -226,6 +226,7 @@ form
 #SendBtn:hover
 {
     opacity: 85%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 550px)
