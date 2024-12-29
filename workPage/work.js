@@ -28,6 +28,12 @@ function change5() {
 function revert5() {
     document.getElementById("NRCanCap").innerHTML = "2024 . NATURAL RESOURCES CANADA";   
 }
+function change5() {
+    document.getElementById("JirCap").innerHTML = "UI/UX DESIGN + LOGO";
+}
+function revert5() {
+    document.getElementById("JirCap").innerHTML = "2024 . JIRAXIS";   
+}
 
 $(window).on('load', function () {
     $('#loading').hide();

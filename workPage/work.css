@@ -309,6 +309,12 @@ h1
     border-radius: 10px;
 }
 
+#Jirbg
+{
+    background: url('Images//Jiraxis.png') no-repeat;
+    background-size: 100%;
+}
+
 #NRCanbg
 {
     background: url('Images//Enerstar.png') no-repeat;

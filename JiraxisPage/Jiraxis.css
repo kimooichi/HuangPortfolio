@@ -259,13 +259,9 @@ h1
 
 .ContainerChild
 {
-    margin: 0.5em;
-}
-
-.ContainerChild a:hover
-{
-    filter: brightness(60%);
-    transition: 0.3s;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
 }
 
 #Container2
@@ -276,7 +272,8 @@ h1
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: -1em;
+    padding-top: -5em;
+    margin-top: -14em;
 }
 
 #LiveBtn
@@ -643,6 +640,18 @@ h3
         width: 50%;
         height: 50%;
     }
+
+    #Container2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: -5em;
+    margin-top: -3em;
+}
 }
 
 
