@@ -235,8 +235,8 @@ h1
 
 #CMVCbg
 {
-    background: linear-gradient(to bottom right, black, transparent 60%), url('Images/CMVC.png') no-repeat;
-    background-size: 180%;
+    background: linear-gradient(to bottom right, black, transparent 40%), url('Images/volley.png') no-repeat;
+    background-size: 100%;
 }
 
 #CMVCLogo
@@ -248,8 +248,8 @@ h1
 
 #BSbg
 {
-    background: url('Images/BerrySoup.jpg') no-repeat;
-    background-size: 180%;
+    background: url('Images/BS.png') no-repeat;
+    background-size: 100%;
 }
 
 .divCap
@@ -327,18 +327,12 @@ h1
         width: 250px;
         height: 250px;
         border-radius: 15px;
+        background-position: center center;
     }
 
-    #BSbg, #CMVCbg
+    #BSbg
     {
         background-size:  180%;
-    }
-
-    #CMVCLogo
-    {
-        padding: 5.6em;
-        width: 5em;
-        transform: rotate(-90deg);
     }
 
     #AgriLogo
