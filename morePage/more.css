@@ -77,8 +77,8 @@ nav
     list-style-type: none;
     border: none;
     background-color: inherit;
-    font-family: "dm-sans", sans-serif;
-    font-weight: 500;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -107,7 +107,9 @@ nav
 body
 {
     margin: 0; /* Body has a default margin of 8px */
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -160,8 +162,9 @@ h1
     font-size: 20px;
     padding-top: 15px;
     letter-spacing: 2px;
-    font-family: "dm-sans", sans-serif;
-    font-weight: 800;
+    font-family: "fustat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #NameLogo
@@ -359,7 +362,9 @@ footer
     line-height: 10px;
     font-size: 12px;
     font-weight: 300;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #c4c4c4;
 }
 
