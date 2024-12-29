@@ -1,0 +1,702 @@
+/*Nav Starts Here*/
+
+nav
+{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(124, 124, 124, 0.13);
+}
+
+.navbar
+{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: right;
+}
+
+.hamburger 
+{
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.navsection
+{
+    list-style-type: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#NameHead
+{
+    float: left;
+    text-decoration: none;
+    position: relative;
+    padding-left: 30px
+}
+
+#NameHead a
+{
+    text-decoration: none;
+}
+
+#navmenu
+{
+    float: right;
+    position: relative;
+    padding-right: 30px;
+}
+
+#navCurrent a
+{
+    color: Black;
+    font-weight: 400;
+}
+
+#navOthers a
+{
+    color: rgb(124, 124, 124);
+    font-weight: 300;
+}
+
+.navbar a, .navbtn
+{
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    background-color: inherit;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbtn a:hover
+{
+    text-decoration: underline;
+}
+
+.Socialsicon
+{
+    width: 2em;
+    height: 2em;
+    padding: 2px;
+    filter: brightness(0);
+    transition: 0.3s;
+}
+
+.Socialsicon:hover
+{
+    filter: none;
+    transition: 0.3s;
+}
+
+/*Nav Ends Here*/
+/*Page Starts Here*/
+body
+{
+    margin: 0; /* Body has a default margin of 8px */
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeInAnimation 
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#loading 
+{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: #fff;
+    z-index: 99;
+}
+  
+#loading-image 
+{
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+}
+
+#nameLogo
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center ;
+}
+
+#NameImg
+{
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
+h1
+{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-family: "fustat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#NameLogo
+{
+    text-align: center;
+    padding-top: 20px;
+    width: 150px;
+    height: 80px;
+    margin: auto;
+}
+
+#Heading
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5em;
+}
+
+#Heading h2
+{
+    font-size: 18px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bold
+{
+    font-weight: 500;
+}
+
+#Labelling
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #585858;
+}
+
+#LiveLink a
+{
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #156082;
+    text-transform: uppercase;
+}
+
+#Caption
+{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    line-height: 2em;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #585858;
+    width: 25em;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ContainerChild a
+{
+    text-decoration: none;
+    filter: brightness(100%);
+    transition: 0.3s;
+}
+
+.ContainerChild
+{
+    margin: 0.5em;
+}
+
+.ContainerChild a:hover
+{
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+#Container2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -1em;
+}
+
+#LiveBtn
+{
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1em;
+    width: 12em;
+    color: white;
+}
+
+#BtnContainer a
+{
+    color: white;
+    text-decoration: none;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#LiveBtn:hover
+{
+    opacity: 85%;
+}
+
+.SCimg1
+{
+    width: 100%;
+}
+
+.SCimg2
+{
+    min-width: 15em;
+    max-width: 60%;
+}
+
+.ImgSect
+{
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+#LaptopImg
+{
+    width: 100%;
+    margin-top: 3em;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#SideImg
+{
+    width: 80%;
+    float: left;
+}
+
+#HeadLogo
+{
+    width: 40%;
+    margin: auto;
+}
+
+#DRPImg
+{
+    width: 95%;
+    margin-left: -10em;
+    float: right;
+    max-width: 70em;
+}
+
+#ANCImg
+{
+    width: 85%;
+    margin-top: 3em;
+    margin-right: -10em;
+    max-width: 60em;
+    float: left;
+}
+
+#PCImg
+{
+    width: 80%;
+    margin-top: 5%;
+    padding-bottom: 10em;
+}
+
+#ANCPara, #DRPPara
+{
+    text-align: left;
+    font-weight: 300;
+}
+
+#PCPara
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: -1em;
+    font-weight: 300;
+}
+
+#Device
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#Head
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding: 10%;
+    transition: 0.3s;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#Device
+{
+    background-image: url(Images/background.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    transition: 0.3s;
+}
+
+#HeadParent, #DeviceParent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HeadTextParent
+{
+    margin-bottom: 5em;
+    margin-right: 5%;
+}
+
+#DeviceTextParent
+{
+    margin-bottom: 1em;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h4
+{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h5
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#role
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#contributors
+{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#HeadPara1, #HeadPara2
+{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+}
+
+#Mediums
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3
+{
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    float: middle;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: #061922;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+
+#Link
+{
+    width: 20em;
+    z-index: 1;
+}
+
+#Link:hover
+{
+    opacity: 80%;
+}
+
+#FCImg
+{
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 750px)
+{
+    h2, h4, h5
+    {
+        font-size: 22px;
+    }
+
+    #Link
+    {
+        width: 18em;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 14px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .navbar 
+    {
+        position: fixed;
+        left: -200%;
+        top: 4rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        transition: 0.5s;
+        padding-bottom: 20px;
+        box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+    }
+    
+    .navbar a, .navbtn
+    {
+        font-size: 12px;
+    }
+
+    .navbar.active 
+    {
+        left: 0;
+    }
+    
+    .navsection 
+    {
+        display: fixed;
+        padding: 15px;
+    }
+    
+    .hamburger 
+    {
+        display: block;
+        cursor: pointer;
+        float: right;
+        position: relative;
+        padding-top: 25px;
+        z-index: 2;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    #Heading
+    {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    #Container
+    {
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 1em;
+    }
+
+    #topBtn
+    {
+        font-size: 12px;
+    }
+
+    #Device, #Head
+    {
+        background-image: url(Images/background.png);
+        background-size: 200%;
+    }
+
+    h2, h4, h5
+    {
+        font-size: 18px;
+    }
+
+    #Link
+    {
+        width: 14em;
+    }
+
+    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
+    {
+        font-size: 11px;
+    }
+
+    h3, #contributors
+    {
+        font-size: 9px;
+    }
+
+    #topImg
+    {
+        margin-left: -0.5em;
+    }
+
+    .SCimg3
+    {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+/*Page Ends Here*/
+/*Footer Starts Here*/
+
+footer
+{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#FooterHr
+{
+    width: 70%;
+    text-align: center;
+    border: 0.5px solid #c4c4c47b;
+}
+
+#FooterText
+{
+    padding-top: 8px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c4c4c4;
+}
+
+#FooterSocials
+{
+    text-align: center;
+}
+
+.FSocialsicon
+{
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 40%;
+    filter: brightness(0);
+    transition: 0.3s;
+}
+
+.FSocialsicon:hover
+{
+    filter: none;
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+/*Footer Ends Here*/
+
