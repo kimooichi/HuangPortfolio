@@ -155,6 +155,12 @@ body
     text-align: center ;
 }
 
+#NameImg
+{
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
 h1
 {
     color: black;
@@ -208,17 +214,17 @@ h1
 .divBg1
 {
     margin: auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 .divBg2
 {
     margin: auto;
     width: 450px;
-    height: 300px;
-    border-radius: 15px;
+    height: 350px;
+    border-radius: 10px;
 }
 
 #SomBg
@@ -236,14 +242,14 @@ h1
 #CAbg
 {
     background: url('Images/Creat2.png') no-repeat;
-    background-size: 130%;
+    background-size: 135%;
     background-position: center center;
 }
 
 #ChefRbg
 {
     background: url('Images/ChefRics_Logo.webp') no-repeat;
-    background-size: 130%;
+    background-size: 150%;
     background-position: center center;
 }
 
@@ -310,26 +316,19 @@ h1
         transform: translateY(-8px) rotate(-45deg);
     }
 
-
-    .Socialsicon
-    {
-        width: 1.5em;
-        height: 1.5em;
-    }
-
     .divBg1
     {
         margin: auto;
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
         border-radius: 15px;
     }
 
     .divBg2
     {
         margin: auto;
-        width: 250px;
-        height: 180px;
+        width: 350px;
+        height: 280px;
         border-radius: 15px;
     }
 

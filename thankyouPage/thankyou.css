@@ -155,6 +155,12 @@ body
     text-align: center ;
 }
 
+#NameImg
+{
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
 h1
 {
     color: black;
@@ -250,12 +256,6 @@ h2
         transform: translateY(-8px) rotate(-45deg);
     }
 
-
-    .Socialsicon
-    {
-        width: 1.5em;
-        height: 1.5em;
-    }
 }
 
 /*Page Ends Here*/

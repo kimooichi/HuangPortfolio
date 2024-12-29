@@ -155,6 +155,12 @@ body
     text-align: center ;
 }
 
+#NameImg
+{
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
 h1
 {
     color: black;
@@ -465,12 +471,6 @@ h3
     {
         margin-left: 3em;
         margin-right: 3em;
-    }
-
-    .Socialsicon
-    {
-        width: 1.5em;
-        height: 1.5em;
     }
 
     h2, h4
