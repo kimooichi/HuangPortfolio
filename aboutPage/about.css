@@ -219,8 +219,9 @@ h2
 #text
 {
     margin: auto;
-    width: 85%;
-    min-width: 12em;
+    line-height: 25px;
+    width: 100%;
+    min-width: 15em;
 }
 
 .abtTxt
