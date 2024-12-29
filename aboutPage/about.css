@@ -192,10 +192,24 @@ h1
     margin-right: 10%;
 }
 
+.ContainerChild a
+{
+    text-decoration: none;
+    filter: brightness(100%);
+    transition: 0.3s;
+}
+
 .ContainerChild
 {
-    display: inline-block;
+    margin: 0.5em;
 }
+
+.ContainerChild a:hover
+{
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
 
 h2
 {
@@ -221,8 +235,8 @@ h2
 {
     margin: auto;
     line-height: 25px;
-    width: 100%;
     min-width: 15em;
+    max-width: 60%;
 }
 
 .abtTxt
