@@ -5,6 +5,7 @@ nav
     justify-content: space-between;
     width: 100%;
     display: flex;
+    border-bottom: 1px solid rgba(124, 124, 124, 0.13);
 }
 
 
@@ -179,8 +180,8 @@ h1
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 2.5em;
 }
 
@@ -202,12 +203,26 @@ h1
     transition: 0.3s;
 }
 
+.divBgMAIN
+{
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    border-radius: 15px;
+}
+
 .divBg
 {
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 15px;
+}
+
+#Mebg
+{
+    background: url('Images//Estar1.png') no-repeat;
+    background-size: 100%;
 }
 
 #NRCanbg
@@ -320,12 +335,18 @@ h1
         width: 1.5em;
         height: 1.5em;
     }
+    
+    #Container
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
     .divBg
     {
         margin: auto;
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
         border-radius: 15px;
         background-position: center center;
     }
