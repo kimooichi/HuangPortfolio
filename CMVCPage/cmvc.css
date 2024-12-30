@@ -323,11 +323,11 @@ h1
 #Head
 {
     background-image: url(Images/background.png);
-    background-size: 150%;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     font-family: 'Outfit', sans-serif;
-    padding: 10%;
+    padding: 5%;
     transition: 0.3s;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -336,7 +336,7 @@ h1
 #Device
 {
     background-image: url(Images/background.png);
-    background-size: 150%;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     font-family: 'Outfit', sans-serif;

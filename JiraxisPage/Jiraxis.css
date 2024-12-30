@@ -246,8 +246,8 @@ h1
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .ContainerChild a
@@ -270,10 +270,10 @@ h1
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: -5em;
-    margin-top: -14em;
+    margin-top: -10em;
 }
 
 #LiveBtn
@@ -378,8 +378,8 @@ h1
 
 #Device
 {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #Head
@@ -389,7 +389,7 @@ h1
     background-repeat: no-repeat;
     color: white;
     font-family: 'Outfit', sans-serif;
-    padding: 10%;
+    padding: 5%;
     transition: 0.3s;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -647,8 +647,8 @@ h3
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: -5em;
     margin-top: -3em;
 }

@@ -185,8 +185,8 @@ h1
 #banner
 {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #bannerImg
@@ -244,8 +244,8 @@ h2
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .ContainerChild a
@@ -269,8 +269,8 @@ h2
 #Container2
 {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .SCimg1

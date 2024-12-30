@@ -243,8 +243,8 @@ h1
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .ContainerChild a
@@ -263,8 +263,8 @@ h1
 {
     text-align: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #LiveBtn
