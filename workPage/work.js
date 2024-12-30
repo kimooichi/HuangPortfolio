@@ -5,13 +5,13 @@ function revert1() {
     document.getElementById("CMVCCap").innerHTML = "2023 . CARLETON MEN'S VOLLEYBALL CLUB";   
 }
 function change2() {
-    document.getElementById("BSCap").innerHTML = "UI DESIGN + FRONT-END + BRAND IDENTITY";   
+    document.getElementById("BSCap").innerHTML = "UI DESIGN + FRONT-END + VISUAL IDENTITY";   
 }
 function revert2() {
     document.getElementById("BSCap").innerHTML = "2022 . BERRY SOUP";   
 }
 function change3() {
-    document.getElementById("AgriCap").innerHTML = "UI DESIGN + GRAPHIC DESIGN";   
+    document.getElementById("AgriCap").innerHTML = "UI DESIGN + VISUAL DESIGN";   
 }
 function revert3() {
     document.getElementById("AgriCap").innerHTML = "2024 . AGRICULTURE AND FOOD MUSEUM";   
@@ -29,7 +29,7 @@ function revert5() {
     document.getElementById("NRCanCap").innerHTML = "2024 . NATURAL RESOURCES CANADA";   
 }
 function change5() {
-    document.getElementById("JirCap").innerHTML = "UI/UX DESIGN + LOGO";
+    document.getElementById("JirCap").innerHTML = "UI/UX DESIGN + VISUAL IDENTITY";
 }
 function revert5() {
     document.getElementById("JirCap").innerHTML = "2024 . JIRAXIS";   
