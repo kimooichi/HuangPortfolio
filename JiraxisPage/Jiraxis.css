@@ -51,6 +51,12 @@ nav
     text-decoration: none;
 }
 
+#NameImg
+{
+    padding-top: 12px;
+    padding-bottom: 3px;
+}
+
 #navmenu
 {
     float: right;
