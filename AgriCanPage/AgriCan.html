@@ -70,117 +70,68 @@
         </div>
     </div>
 </nav>
+    <!--(Optional) Banner Image/Video-->
+    <!--<div id="Heading">
+        <video id="video" loop autoplay muted playsinline>
+            <source src="Images/Animation.MP4" type="video/mp4" />
+        </video>
+    </div>-->
 
-    <div id="Heading">
-        <h2>
-            <b>AGRICULTURE AND FOOD MUSEUM</b>
-        </h2>
-        <p id="Labelling">
-            [UI DESIGN, GRAPHIC DESIGN | MEDIUMS - PROCREATE, ADOBE ILLUSTRATOR, ADOBE INDESIGN, ADOBE XD]
-        </p>
-<!-- ***Tried to add buttons here, not complete, still working on it*****
- 
-        <div id="BtnContainer">
-            <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:ec093a9e-0e06-46d7-ab9d-bb3da11ce3d4?view=published">
-                <button type="submit" id="LiveBtn">Illustrative Map</button>
-            </a>
-        </div></br>
-        <div id="BtnContainer">
-            <a href="https://drive.google.com/file/d/1N9w3Mlst9ZXYO1O9LQwhJhd46Ui5j4Ya/view?usp=sharing">
-                <button type="submit" id="LiveBtn">Brochure</button>
-            </a>
-        </div></br>
-        <div id="BtnContainer">
-            <a href="https://xd.adobe.com/view/686a11a3-e6dc-477e-88a2-ce5fef887322-3d39/">
-                <button type="submit" id="LiveBtn">Scavenger Hunt Game</button>
-            </a>
-        </div>-->
-
-        <div id="LiveLink">
-            <a href="https://xd.adobe.com/view/686a11a3-e6dc-477e-88a2-ce5fef887322-3d39/" alt="LiveLink">Scavenger Hunt Live Link</a>
-        </div> 
-        <div id="LiveLink">
-            <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:ec093a9e-0e06-46d7-ab9d-bb3da11ce3d4?view=published" alt="LiveLink">Illustrative Map Live Link</a>
-        </div>
-        <div id="LiveLink">
-            <a href="https://drive.google.com/file/d/1N9w3Mlst9ZXYO1O9LQwhJhd46Ui5j4Ya/view?usp=sharing" alt="LiveLink">Brochure Live Link</a>
-        </div>
-    </div>
-
-    <div id="Container">
+    <!--Page Details-->
+    <div id="Container1">
         <div class="ContainerChild">
-            <p id="Caption">
-                This 4-month project for Canada Agriculture and Food Museum was part of my MPAD2002 Visual communications course to develop skills within Adobe software. The main focus was to understand how to use colour, shapes, and theory to target specific demographics and create indirect meaningful messages. For this project, my main audience was children, with the goal of creating a playful and fun learning environment.
+            <p id="Labelling">
+                SCAVENGER HUNT GAME, ILLUSTRATIVE MAP, BROCHURE
             </p>
+            <h2>
+                <b>AGRICULTURE AND FOOD MUSEUM</b>
+            </h2>
+            <div id="LiveLink">
+                <a href="https://xd.adobe.com/view/686a11a3-e6dc-477e-88a2-ce5fef887322-3d39/" alt="LiveLink">Scavenger Hunt Live Link</a>
+            </div> 
+            <div id="LiveLink">
+                <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:ec093a9e-0e06-46d7-ab9d-bb3da11ce3d4?view=published" alt="LiveLink">Illustrative Map Live Link</a>
+            </div>
+            <div id="LiveLink">
+                <a href="https://drive.google.com/file/d/1N9w3Mlst9ZXYO1O9LQwhJhd46Ui5j4Ya/view?usp=sharing" alt="LiveLink">Brochure Live Link</a>
+            </div>
             <p id="Caption">
                 This project involved creating an interactive scavenger hunt game on Adobe XD, an illustrative map on Adobe Illustrator, and a brochure on Adobe InDesign (Adobe XD link has been adjusted to display only my work on this project).
             </p>
         </div>
+        <div class="ContainerChild">
+            <ul id="AccUL">
+                <li>
+                    <h4>ROLE</h4>
+                    <p class="AccDescription">UI Design, graphic design
+                    </p>
+                </li>
+                <li>
+                    <h4>CLIENT</h4>
+                    <p class="AccDescription">Carleton University: Katie Graham
+                    </p>
+                </li>
+                <li>
+                    <h4>TOOLS</h4>
+                    <p class="AccDescription">Procreate, Adobe Illustrator, Adobe Indesign, Adobe XD
+                    </p>
+                </li>
+                <li>
+                    <h4>YEAR</h4>
+                    <p class="AccDescription">2024
+                    </p>
+                </li>
+            </ul>
     </div>
-    <div id="Container2"></div>
-        <div id="Head">
-            <img class="SCimg1" src="Images/AgriPack2.png" alt="Screenshots">
-        </div>  
+    </div>
+
+    <!--Page Content-->
+    <div id="Container">
+        <img class="ImgSect" src="Images/AgriPack2.png" alt="Screenshots">
     </div>
     
-    <script>
-        $(window).on('load', function () {
-          $('#loading').hide();
-        }) 
-
-        var btn = $('#topBtn');
-
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 300) {
-            btn.addClass('show');
-            } else {
-                btn.removeClass('show');
-            }
-        });
-
-        btn.on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({scrollTop:0}, '300');
-        });
-
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".navbar");
-        const body = document.body;
-        
-        // Create and append an overlay element
-        const overlay = document.createElement("div");
-        overlay.className = "overlay";
-        body.appendChild(overlay);
-        
-        // Add click event to toggle the mobile menu
-        hamburger.addEventListener("click", mobileMenu);
-        
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-            overlay.classList.toggle("active");
-        
-            // Disable scrolling when menu is active
-            if (hamburger.classList.contains("active")) {
-                body.style.overflow = "hidden";
-            } else {
-                body.style.overflow = ""; // Restore scrolling
-            }
-        }
-        
-        // Close menu and overlay when a navigation link is clicked
-        const navLink = document.querySelectorAll(".navbtn a");
-        
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-        
-        overlay.addEventListener("click", closeMenu); // Close the menu when clicking on the overlay
-        
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-            overlay.classList.remove("active");
-            body.style.overflow = ""; // Restore scrolling
-        }
+    <!--Script and Footer-->
+    <script src="AgriCan.js">
     </script>
 </body>
 <footer>

@@ -148,17 +148,12 @@ body
     height: 50px;
 }
 
-#nameLogo
-{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center ;
-}
 
-#NameImg
+#video
 {
-    padding-top: 12px;
-    padding-bottom: 3px;
+    justify-content: center;
+    align-items: center center;
+    width: 100%;
 }
 
 h1
@@ -173,72 +168,84 @@ h1
     font-style: normal;
 }
 
-#NameLogo
-{
-    text-align: center;
-    padding-top: 20px;
-    width: 150px;
-    height: 80px;
-    margin: auto;
-}
-
-#Container
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3em;
-}
-
+/*new code*/
 #Heading
 {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-top: 2.5em;
+    margin-bottom: -3em;
+    text-align: center;
 }
 
-h2
+#Heading h2
 {
-    font-size: 18px;
+    font-size: 25px;
     font-family: "fustat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+#bold
+{
+    font-weight: 500;
+}
+
 #Labelling
 {
-    font-size: 11px;
+    margin-top: 3em;
+    margin-bottom: -0.6em;
+    font-size: 12px;
     letter-spacing: 1px;
+    font-family: "fustat", sans-serif;
     font-weight: 400;
+    font-style: normal;
     color: #585858;
+}
+
+#LiveLink a
+{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #156082;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #Caption
 {
-    padding-top: 2em;
-    padding-bottom: 1em;
     line-height: 2em;
     word-spacing: 1px;
     font-size: 13px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
     font-style: normal;
     color: #585858;
-    width: 80%;
+    max-width: 30em;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 3em;
+    padding-right: 2.5em;
 }
 
 #Container
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+#Container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .ContainerChild a
@@ -250,27 +257,123 @@ h2
 
 .ContainerChild
 {
-    margin: 0.5em;
+    margin-top: 0.5em;
+}
+/*new code*/
+
+h4
+{
+    font-size: 40px;
+    margin-bottom: 0em;
+    text-align: justify;
+    text-transform: uppercase;
 }
 
-.ContainerChild a:hover
+.ScreenshotContainer
 {
-    filter: brightness(60%);
-    transition: 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-#myVideo 
+.Screenshot
 {
-    cursor: pointer;  
-    filter: brightness(100%);
-    transition: 0.3s;  
+    width: 43%;
+    margin: 2%;
+    margin-bottom: 3em;
 }
 
-#myVideo:hover 
+.ImgSect
 {
-    filter: brightness(60%);
-    transition: 0.3s;
+    width: 92%;
+    margin-bottom: 3em;
 }
+
+#text
+{
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+    font-weight: 50;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1em;
+    text-align: justify;
+    color: #373737;
+}
+
+#Link
+{
+    width: 25%;
+    min-width: 10em;
+    margin-bottom: 4.5em;
+}
+
+#Link:hover
+{
+    opacity: 80%;
+}
+
+#FCImg
+{
+    margin-bottom: 3em;
+}
+
+#LogoImg
+{
+    width: 30%;
+    min-width: 15em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+
+/*new code*/
+h4 {
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+
+.AccDescription
+{
+    font-size: 13px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #8d8d8d;
+    line-height: 18px;
+    padding-right: 2px;
+}
+
+#AccUL {
+    list-style: none;
+    border-radius: 5px;
+    margin-left: -2.5em;
+}
+
+#AccUL li {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    border-top: 1px solid #c4c4c463;
+}
+
+#AccUL li:nth-child(1) { 
+    border:none; 
+}
+
+#AccUL li:last-of-type { 
+    padding-bottom: 0; 
+}
+
+#AccUL li .fas{
+    color:#000000;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-right: 10px;
+}
+/*new code*/
 
 @media screen and (max-width: 800px)
 {
@@ -326,11 +429,10 @@ h2
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    #myVideo
+    #HeadText p, #DeviceText
     {
-        width: 250px; 
-        height: 260px;
-    } 
+        font-size: 12px;
+    }
 }
 
 /*Page Ends Here*/

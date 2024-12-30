@@ -70,98 +70,67 @@
         </div>
     </div>
 </nav>
-    
-
+    <!--(Optional) Banner Image/Video-->
     <div id="Heading">
-        <div id="Head">
-            <img class="SCimg1" width="100%" src="../NRCanPage/Images/Es heading.png" alt="Screenshot">
-        </div>
-        <h2>
-            <b>NATURAL RESOURCES CANADA</b>
-        </h2>
-        <p id="Labelling">
-            [UI/UX DESIGN, WIREFRAMING, PROTOTYPING | MEDIUMS - FIGMA, ADOBE XD]
-        </p>
-        <div id="LiveLink">
-            <a href="https://drive.google.com/file/d/197HLFk0IHaXvIUJc1w5yx1Y_dc5YL5Ju/view?usp=sharing" alt="LiveLink">Energy Star Fall 2024 Campaign</a>
-        </div>
-        <div id="LiveLink">
-            <a href="https://drive.google.com/file/d/1q6shXknF2WwHRbDWkPKiW4pL9066S1vF/view?usp=sharing" alt="LiveLink">Energy Star Portfolio Manager Ad</a>
-        </div>
-        <!--<div id="LiveLink">
-            <a href="https://drive.google.com/file/d/1hA3vAzczV6KLsGKCb1Vkz3o_XUyFrqR6/view?usp=sharing" alt="LiveLink">Canadian Metals and Minerals Plan</a>
-        </div>-->
+        <img class="ImgSect" src="Images/Es heading.png" alt="Screenshots">
     </div>
 
+    <!--Page Details-->
+    <div id="Container1">
+        <div class="ContainerChild">
+            <p id="Labelling">
+                WEBSITE
+            </p>
+            <h2>
+                <b>NATURAL RESOURCES CANADA</b>
+            </h2>
+            <div id="LiveLink">
+                <a href="https://drive.google.com/file/d/197HLFk0IHaXvIUJc1w5yx1Y_dc5YL5Ju/view?usp=sharing" alt="LiveLink">Energy Star Fall 2024 Campaign</a>
+            </div>
+            <div id="LiveLink">
+                <a href="https://drive.google.com/file/d/1q6shXknF2WwHRbDWkPKiW4pL9066S1vF/view?usp=sharing" alt="LiveLink">Energy Star Portfolio Manager Ad</a>
+            </div>
+            <p id="Caption">
+                The <b>Fall 2024 campaign</b> was set to introduce the new cooktop appliances from EnergyStar. My objectives were to re-design the full wireframe for the new Fall 2024 campaign in consideration of user experience, accesibility, the media plan provided, analytics, and the prioritized call to actions (CTA).
+                </br></br> For the <b>Portfolio Manager Ad</b> project, I was tasked with creating a template in consideration of promoting EnergyStars Benchmarking tool. This template would introduce the concept of incorperating testimonials and marketting strategies to inform the public on the benefits of benchmarking and signing up. This project was absolutely enjoyable to do as it allowed me to explore wireframing within set restrictions and guidelines, versus, 
+                 with more creative freedom. [Please DO NOT share with outside sources.]
+            </p>
+        </div>
+        <div class="ContainerChild">
+                <ul id="AccUL">
+                    <li>
+                        <h4>ROLE</h4>
+                        <p class="AccDescription">UI/UX design, wireframing, prototyping
+                        </p>
+                    </li>
+                    <li>
+                        <h4>CLIENT</h4>
+                        <p class="AccDescription">Government
+                        </p>
+                    </li>
+                    <li>
+                        <h4>TOOLS</h4>
+                        <p class="AccDescription">Figma, AdobeXD
+                        </p>
+                    </li>
+                    <li>
+                        <h4>YEAR</h4>
+                        <p class="AccDescription">2024
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <!--Page Content-->
     <div id="Container">
-        <p id="Caption">
-            <i>Above links are samples of my work with EnergyStar during my time at Natural Resources Canada (NRCan).</i> </br></br> The <b>Fall 2024 campaign</b> was set to introduce the new cooktop appliances from EnergyStar. My objectives were to re-design the full wireframe for the new Fall 2024 campaign in consideration of user experience, accesibility, the media plan provided, analytics, and the prioritized call to actions (CTA).
-            </br></br> For the <b>Portfolio Manager Ad</b> project, I was tasked with creating a template in consideration of promoting EnergyStars Benchmarking tool. This template would introduce the concept of incorperating testimonials and marketting strategies to inform the public on the benefits of benchmarking and signing up. This project was absolutely enjoyable to do as it allowed me to explore wireframing within set restrictions and guidelines, versus, 
-             with more creative freedom. [Please DO NOT share with outside sources.]
-        </p>
-        <div id="NRCanLogo">
-            <img id="GOV" src="Images/NRCANlogo.webp" alt="NRCANLOGO" />
+        <div id="Container">
+            <img class="ImgSect" src="Images/NRCANlogo.webp" alt="Screenshots">
         </div>
     </div>
     
-    <script>
-        $(window).on('load', function () {
-          $('#loading').hide();
-        }) 
-
-        var btn = $('#topBtn');
-
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 300) {
-            btn.addClass('show');
-            } else {
-                btn.removeClass('show');
-            }
-        });
-
-        btn.on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({scrollTop:0}, '300');
-        });
-
-        const hamburger = document.querySelector(".hamburger");
-        const navMenu = document.querySelector(".navbar");
-        const body = document.body;
-        
-        // Create and append an overlay element
-        const overlay = document.createElement("div");
-        overlay.className = "overlay";
-        body.appendChild(overlay);
-        
-        // Add click event to toggle the mobile menu
-        hamburger.addEventListener("click", mobileMenu);
-        
-        function mobileMenu() {
-            hamburger.classList.toggle("active");
-            navMenu.classList.toggle("active");
-            overlay.classList.toggle("active");
-        
-            // Disable scrolling when menu is active
-            if (hamburger.classList.contains("active")) {
-                body.style.overflow = "hidden";
-            } else {
-                body.style.overflow = ""; // Restore scrolling
-            }
-        }
-        
-        // Close menu and overlay when a navigation link is clicked
-        const navLink = document.querySelectorAll(".navbtn a");
-        
-        navLink.forEach(n => n.addEventListener("click", closeMenu));
-        
-        overlay.addEventListener("click", closeMenu); // Close the menu when clicking on the overlay
-        
-        function closeMenu() {
-            hamburger.classList.remove("active");
-            navMenu.classList.remove("active");
-            overlay.classList.remove("active");
-            body.style.overflow = ""; // Restore scrolling
-        }
+    <!--Script and Footer-->
+    <script src="NRcan.js">
     </script>
 </body>
 <footer>

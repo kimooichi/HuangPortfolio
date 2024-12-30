@@ -43,7 +43,7 @@
     <div id="navmenu">
         <ul class="navbar">
             <li class="navsection">
-                <button class="navbtn" id="navOthers">
+                <button class="navbtn" id="navCurrent">
                     <a href="../index.html">PROJECTS</a>
                 </button>
             </li>
@@ -57,7 +57,7 @@
                     <a href="../contactPage/contact.html">CONTACT</a> 
                 </button>
             </li>
-            <li class="navsection" id="navCurrent">
+            <li class="navsection" id="navOthers">
                 <button class="navbtn">
                     <a href="../morePage/more.html"> + MORE FUN STUFF</a>  
                 </button>
@@ -70,25 +70,62 @@
         </div>
     </div>
 </nav>
-
+    <!--(Optional) Banner Image/Video-->
     <div id="Heading">
-        <h2>
-            <b>FIRST DAY OF SCHOOL</b>
-        </h2>
-        <p id="Labelling">
-            [ANIMATION | MEDIUMS - PROCREATE, IMOVIE]
-        </p>
-    </div>
-
-    <div id="Container">
-        <p id="Caption">
-            This short animation won first-place in the Summer 2022 Create-athon Contest hosted by the Bachelor of Media Production & Design program at Carleton University. This animation focuses on the importance of digital story telling, following the first day of school of a young raccoon living in a town filled with dogs.
-        </p>
-        <video id="myVideo" width="580" height="300" autoplay>
-            <source id="Video" src="Images/62BD8B69-740E-4482-A314-0F6602A8961C.MP4" type="video/MP4">
+        <video id="video" autoplay controls>
+            <source src="Images/62BD8B69-740E-4482-A314-0F6602A8961C.MP4" type="video/mp4">
         </video>
     </div>
+
+    <!--Page Details-->
+    <div id="Container1">
+        <div class="ContainerChild">
+            <p id="Labelling">
+                ANIMATION
+            </p>
+            <h2>
+                <b>FIRST DAY OF SCHOOL</b>
+            </h2>
+            <p id="Caption">
+                This short animation won first-place in the Summer 2022 Create-athon Contest hosted by the Bachelor of Media Production & Design program at Carleton University. This animation focuses on the importance of digital story telling, following the first day of school of a young raccoon living in a town filled with dogs.
+            </p>
+        </div>
+        <div class="ContainerChild">
+                <ul id="AccUL">
+                    <li>
+                        <h4>ROLE</h4>
+                        <p class="AccDescription">Animation, visual art
+                        </p>
+                    </li>
+                    <li>
+                        <h4>CLIENT</h4>
+                        <p class="AccDescription">Carleton University: Creata-a-thon 2022
+                        </p>
+                    </li>
+                    <li>
+                        <h4>TOOLS</h4>
+                        <p class="AccDescription">Procreate, imovie
+                        </p>
+                    </li>
+                    <li>
+                        <h4>YEAR</h4>
+                        <p class="AccDescription">2022
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <!--Page Content
+    <div id="Container">
+        <div id="Container">
+            <img class="ImgSect" src="Images/v1.png" alt="Screenshots">
+            <img class="ImgSect" id="FCImg" src="Images/FontColor.png" alt="FCImg">
+            <img class="ImgSect" id="MoodImg" src="Images/v2.png" alt="MoodImg">
+        </div>
+    </div>-->
     
+    <!--Script and Footer-->
     <script src="CreateAton.js">
     </script>
 </body>

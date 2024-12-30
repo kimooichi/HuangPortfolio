@@ -43,7 +43,7 @@
     <div id="navmenu">
         <ul class="navbar">
             <li class="navsection">
-                <button class="navbtn" id="navOthers">
+                <button class="navbtn" id="navCurrent">
                     <a href="../index.html">PROJECTS</a>
                 </button>
             </li>
@@ -57,7 +57,7 @@
                     <a href="../contactPage/contact.html">CONTACT</a> 
                 </button>
             </li>
-            <li class="navsection" id="navCurrent">
+            <li class="navsection" id="navOthers">
                 <button class="navbtn">
                     <a href="../morePage/more.html"> + MORE FUN STUFF</a>  
                 </button>
@@ -70,25 +70,62 @@
         </div>
     </div>
 </nav>
-
+    <!--(Optional) Banner Image/Video-->
     <div id="Heading">
-        <h2>
-            <b>CHEF RIC</b>
-        </h2>
-        <p id="Labelling">
-            [MINI DOCUMENTARY + FILM | MEDIUMS - PREMIERE PRO]
-        </p>
-    </div>
-
-    <div id="Container">
-        <p id="Caption">
-            Through an interview with Ric Watson, the Executive Chef and Director of Food Services at The Ottawa Mission, this documentary focuses on the food insecurity and homelessness in Ottawa, Ontario. This project was for my MPAD2001 visual communication course and received an A+ final grade.
-        </p>
-        <video id="myVideo" width="580" height="300" autoplay>
-            <source id="Video" src="Images/FINALCOPY_Mini_Documentary_ChefRic_compressed.mp4" type="video/MP4">
+        <video id="video" autoplay controls>
+            <source src="Images/FINALCOPY_Mini_Documentary_ChefRic_compressed.mp4" type="video/mp4">
         </video>
     </div>
+
+    <!--Page Details-->
+    <div id="Container1">
+        <div class="ContainerChild">
+            <p id="Labelling">
+                SHORT DOCUMENTARY
+            </p>
+            <h2>
+                <b>CHEF RIC</b>
+            </h2>
+            <p id="Caption">
+                Through an interview with Ric Watson, the Executive Chef and Director of Food Services at The Ottawa Mission, this documentary focuses on the food insecurity and homelessness in Ottawa, Ontario. This project was for my MPAD2001 visual communication course and received an A+ final grade.
+            </p>
+        </div>
+        <div class="ContainerChild">
+                <ul id="AccUL">
+                    <li>
+                        <h4>ROLE</h4>
+                        <p class="AccDescription">Interview, Film, Video Editing
+                        </p>
+                    </li>
+                    <li>
+                        <h4>CLIENT</h4>
+                        <p class="AccDescription">Carleton University: Caroline O'Neill 
+                        </p>
+                    </li>
+                    <li>
+                        <h4>TOOLS</h4>
+                        <p class="AccDescription">PremierePro
+                        </p>
+                    </li>
+                    <li>
+                        <h4>YEAR</h4>
+                        <p class="AccDescription">2023
+                        </p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <!--Page Content
+    <div id="Container">
+        <div id="Container">
+            <img class="ImgSect" src="Images/v1.png" alt="Screenshots">
+            <img class="ImgSect" id="FCImg" src="Images/FontColor.png" alt="FCImg">
+            <img class="ImgSect" id="MoodImg" src="Images/v2.png" alt="MoodImg">
+        </div>
+    </div>-->
     
+    <!--Script and Footer-->
     <script src="ChefRic.js">
     </script>
 </body>

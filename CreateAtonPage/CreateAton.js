@@ -17,21 +17,6 @@ $(window).on('load', function () {
       $('html, body').animate({scrollTop:0}, '300');
   });
 
-$(window).on('load', function () {
-    $('#loading').hide();
-  }) 
-
-  var video = document.getElementById("myVideo");
-
-  video.addEventListener("click", function() {
-      if (video.paused) {
-          video.play();
-      } else {
-          video.pause();
-      }
-  });
-
-
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".navbar");
   const body = document.body;

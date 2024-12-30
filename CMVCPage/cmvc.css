@@ -107,7 +107,9 @@ nav
 body
 {
     margin: 0; /* Body has a default margin of 8px */
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -146,17 +148,12 @@ body
     height: 50px;
 }
 
-#nameLogo
-{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center ;
-}
 
-#NameImg
+#video
 {
-    padding-top: 12px;
-    padding-bottom: 3px;
+    justify-content: center;
+    align-items: center center;
+    width: 100%;
 }
 
 h1
@@ -171,15 +168,7 @@ h1
     font-style: normal;
 }
 
-#NameLogo
-{
-    text-align: center;
-    padding-top: 20px;
-    width: 150px;
-    height: 80px;
-    margin: auto;
-}
-
+/*new code*/
 #Heading
 {
     margin-left: 10%;
@@ -189,8 +178,8 @@ h1
 
 #Heading h2
 {
-    font-size: 18px;
-     font-family: "fustat", sans-serif;
+    font-size: 25px;
+    font-family: "fustat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -202,7 +191,9 @@ h1
 
 #Labelling
 {
-    font-size: 11px;
+    margin-top: 3em;
+    margin-bottom: -0.6em;
+    font-size: 12px;
     letter-spacing: 1px;
     font-family: "fustat", sans-serif;
     font-weight: 400;
@@ -212,13 +203,14 @@ h1
 
 #LiveLink a
 {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 1px;
     font-family: "fustat", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #585858;
+    color: #156082;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #Caption
@@ -230,210 +222,89 @@ h1
     font-weight: 400;
     font-style: normal;
     color: #585858;
-    max-width: 28em;
+    max-width: 30em;
     text-align: justify;
     padding-top: 3em;
+    padding-right: 2.5em;
 }
 
 #Container
 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5em;
     text-align: center;
+}
+
+#Container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.SCimg1
+.ContainerChild a
 {
-    width: 80%;
+    text-decoration: none;
+    filter: brightness(100%);
+    transition: 0.3s;
+}
+
+.ContainerChild
+{
+    margin-top: 0.5em;
+}
+/*new code*/
+
+h4
+{
+    font-size: 40px;
+    margin-bottom: 0em;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.ScreenshotContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Screenshot
+{
+    width: 43%;
     margin: 2%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3em;
 }
 
 .ImgSect
 {
-    width: 100%;
+    width: 92%;
     margin-bottom: 3em;
 }
 
-#LaptopImg
+#text
 {
-    width: 100%;
-    margin-top: 3em;
-    padding-right: 5%;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 18px;
+    font-weight: 50;
     padding-left: 5%;
-}
-
-#SideImg
-{
-    width: 80%;
-    float: left;
-}
-
-#HeadLogo
-{
-    width: 40%;
-    margin: auto;
-}
-
-#DRPImg
-{
-    width: 95%;
-    margin-left: -10em;
-    float: right;
-    max-width: 70em;
-}
-
-#ANCImg
-{
-    width: 85%;
-    margin-top: 3em;
-    margin-right: -10em;
-    max-width: 60em;
-    float: left;
-}
-
-#PCImg
-{
-    width: 80%;
-    margin-top: 5%;
-    padding-bottom: 10em;
-}
-
-#ANCPara, #DRPPara
-{
-    text-align: left;
-    font-weight: 300;
-}
-
-#PCPara
-{
-    text-align: center;
-    margin: auto;
-    width: 60%;
-    margin-top: -1em;
-    font-weight: 300;
-}
-
-#Device
-{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#Head
-{
-    background-image: url(Images/background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    padding: 5%;
-    transition: 0.3s;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-#Device
-{
-    background-image: url(Images/background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    transition: 0.3s;
-}
-
-#HeadParent, #DeviceParent
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#HeadTextParent
-{
-    margin-bottom: 5em;
-    margin-right: 5%;
-}
-
-#DeviceTextParent
-{
-    margin-bottom: 1em;
-}
-
-h2
-{
-    text-align: left;
-    font-size: 30px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-h4
-{
-    text-align: left;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-h5
-{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-#role
-{
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-#contributors
-{
-    font-weight: 600;
-    font-size: 12px;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-#HeadPara1, #HeadPara2
-{
-    font-weight: 300;
-    font-size: 16px;
-    text-align: left;
-}
-
-#Mediums
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h3
-{
-    display: block;
-    font-family: 'Outfit', sans-serif;
-    float: middle;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    background-color: #061922;
-    padding: 8px;
-    border-radius: 10px;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
+    padding-right: 5%;
+    padding-bottom: 1em;
+    text-align: justify;
+    color: #373737;
 }
 
 #Link
 {
-    width: 20em;
-    z-index: 1;
+    width: 25%;
+    min-width: 10em;
+    margin-bottom: 4.5em;
 }
 
 #Link:hover
@@ -443,31 +314,64 @@ h3
 
 #FCImg
 {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
-@media screen and (max-width: 750px)
+#LogoImg
 {
-    h2, h4, h5
-    {
-        font-size: 22px;
-    }
-
-    #Link
-    {
-        width: 18em;
-    }
-
-    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
-    {
-        font-size: 14px;
-    }
-
-    h3, #contributors
-    {
-        font-size: 12px;
-    }
+    width: 30%;
+    min-width: 15em;
+    padding-bottom: 4em;
+    padding-top: 4em;
 }
+
+/*new code*/
+h4 {
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+
+.AccDescription
+{
+    font-size: 13px;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #8d8d8d;
+    line-height: 18px;
+    padding-right: 2px;
+}
+
+#AccUL {
+    list-style: none;
+    border-radius: 5px;
+    margin-left: -2.5em;
+}
+
+#AccUL li {
+    padding: 0;
+    margin: 0;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    border-top: 1px solid #c4c4c463;
+}
+
+#AccUL li:nth-child(1) { 
+    border:none; 
+}
+
+#AccUL li:last-of-type { 
+    padding-bottom: 0; 
+}
+
+#AccUL li .fas{
+    color:#000000;
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-right: 10px;
+}
+/*new code*/
 
 @media screen and (max-width: 800px)
 {
@@ -523,55 +427,11 @@ h3
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    #Heading
-    {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-
-    #Container
-    {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-
-    #topBtn
+    #HeadText p, #DeviceText
     {
         font-size: 12px;
     }
-
-    #Device, #Head
-    {
-        background-image: url(Images/background.png);
-        background-size: 200%;
-    }
-
-    h2, h4, h5
-    {
-        font-size: 18px;
-    }
-
-    #Link
-    {
-        width: 14em;
-    }
-
-    #HeadPara1, #HeadPara2, #role, #ANCPara, #DRPPara, #PCPara
-    {
-        font-size: 11px;
-    }
-
-    h3, #contributors
-    {
-        font-size: 9px;
-    }
-
-    #topImg
-    {
-        margin-left: -0.5em;
-    }
 }
-
 
 /*Page Ends Here*/
 /*Footer Starts Here*/
@@ -595,6 +455,7 @@ footer
     text-align: center;
     line-height: 10px;
     font-size: 12px;
+    font-weight: 300;
     font-family: "fustat", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -626,4 +487,3 @@ footer
 }
 
 /*Footer Ends Here*/
-
