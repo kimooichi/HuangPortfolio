@@ -159,6 +159,8 @@ body
 {
     justify-content: center;
     align-items: center center;
+    object-fit: cover; /* Ensures proper scaling */
+    height: auto; /* Ensures the aspect ratio is maintained */
     width: 100%;
 }
 
