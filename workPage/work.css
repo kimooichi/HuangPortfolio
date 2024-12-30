@@ -499,6 +499,14 @@ footer
     text-align: center;
 }
 
+#emailadd, #emailadd a
+{
+    font-family: "fustat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c4c4c4;
+}
+
 .FSocialsicon
 {
     width: 2em;
