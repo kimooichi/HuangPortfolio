@@ -1,4 +1,4 @@
-function change1() {
+/*function change1() {
     document.getElementById("CMVCCap").innerHTML = "UI DESIGN + FRONT-END";   
 }
 function revert1() {
@@ -33,7 +33,7 @@ function change5() {
 }
 function revert5() {
     document.getElementById("JirCap").innerHTML = "2024 . JIRAXIS";   
-}
+}*/
 
 $(window).on('load', function () {
     $('#loading').hide();

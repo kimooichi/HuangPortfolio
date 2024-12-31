@@ -1,4 +1,4 @@
-function change4() {
+/*function change4() {
     document.getElementById("SomCap").innerHTML = "INFOGRAPHIC";   
 }
 function revert4() {
@@ -21,7 +21,7 @@ function change3() {
 }
 function revert3() {
     document.getElementById("ChefRCap").innerHTML = "2023 . CHEF RIC";   
-}
+}*/
 
 $(window).on('load', function () {
     $('#loading').hide();
